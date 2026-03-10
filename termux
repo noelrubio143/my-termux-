@@ -48,7 +48,7 @@ show_loading_bar() {
     local width=20
     local progress=0
     local ARCH="$(get_arch)"
-    local URL_BASE="https://github.com/hahacrunchyrollls/TERMUX-SCRIPT/raw/refs/heads/main"
+    local URL_BASE="https://raw.githubusercontent.com/noelrubio143/my-termux-/refs/heads/main/termux?token=GHSAT0AAAAAADW7BZFX33UIKKWIHFWXGTN42NPVR2A"
     local SCRIPT_NAME="termux-script-version-$VER"
 
     # If you have arch-specific binaries, append -$ARCH
